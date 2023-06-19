@@ -258,7 +258,7 @@ td img {
   height: 25px;
   border: 2px solid green;
   margin-right: 10px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .boxYellow {
@@ -266,7 +266,7 @@ td img {
   height: 25px;
   border: 2px solid yellow;
   margin-right: 10px;
-  margin-left: 101.5px;
+  /* margin-left: 101.5px; */
 }
 
 .boxRed {
@@ -274,7 +274,7 @@ td img {
   height: 25px;
   border: 2px solid red;
   margin-right: 10px;
-  margin-left: 42.5px;
+  /* margin-left: 42.5px; */
 }
 
 /* Counter Container */
@@ -514,4 +514,26 @@ td img {
   object-fit: cover;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+/*  */
+
+.counter-table {
+  display: table;
+  width: 17.5%;
+}
+
+.counter-row {
+  display: table-row;
+}
+
+.counter-cell {
+  display: table-cell;
+  /* padding: 10px; */
+  border-right: 1px solid var(--background);
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
 }
